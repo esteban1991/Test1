@@ -1,0 +1,12 @@
+﻿<Window x:Class="BClockViewer.ColckView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Title="Berlin Clock" Height="350" Width="525">
+   
+    <Grid>
+        <StackPanel>
+            <Label Content="{Binding TheTime}"/>
+            <Label Content="{Binding Counter}"/>
+        </StackPanel>
+    </Grid>
+</Window>
